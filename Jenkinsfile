@@ -32,7 +32,5 @@ stage ('Archive Artifacts'){
 
 //input message: "QA Team Approval for Production Deployment?"
 
-stage ('Production Deployment'){
-	sh 'cp target/*.war /opt/tomcat8/webapps'
-}
+
 }
